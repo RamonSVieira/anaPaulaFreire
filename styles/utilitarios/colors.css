@@ -19,25 +19,25 @@
 }
 
 .color-1 {
-  color: #ededed;
+  color: var(--font-color-1);
 }
 
 .color-2 {
-  color: #404040;
+  color: var(--font-color-2);
 }
 
 .color-3 {
-  color: #cccccc;
+  color: var(--font-color-3);
 }
 
 .color-4 {
-  color: #ffffff;
+  color: var(--font-color-4);
 }
 
 .color-detalhe {
-  color: #f2994a;
+  color: var(--color-detalhe);
 }
 
 .background-color1 {
-  background-color: #2f2f30;
+  background-color: var(--background-color1);
 }
