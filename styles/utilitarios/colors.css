@@ -1,0 +1,19 @@
+:root {
+  --background-color1: #2f2f30;
+  --background-color2: #feffdf;
+  --background-color3: #41403d;
+
+  --font-color-1: #ededed;
+  --font-color-2: #404040;
+  --font-color-3: #cccccc;
+  --font-color-4: #ffffff;
+
+  --color-detalhe: #f2994a;
+
+  --icon-color-1: #ededed;
+  --icon-color-2: linear-gradient(
+    180deg,
+    rgba(242, 153, 74, 1) 50%,
+    rgba(242, 201, 76, 1) 100%
+  );
+}

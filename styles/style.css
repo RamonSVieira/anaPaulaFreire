@@ -1,4 +1,6 @@
 @import url("./global/patterns.css");
+@import url("./utilitarios/colors.css");
+@import url("./utilitarios/tipografia.css");
 @import url("./global/header.css");
 
 @import url("./introduction.css");
