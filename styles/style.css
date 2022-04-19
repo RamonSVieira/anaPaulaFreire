@@ -1,0 +1,11 @@
+@import url("./global/patterns.css");
+@import url("./global/header.css");
+
+@import url("./introduction.css");
+@import url("./proposta.css");
+@import url("./areas.css");
+@import url("./comoFunciona.css");
+@import url("./conquista.css");
+@import url("./citacao.css");
+
+@import url("./global/footer.css");
