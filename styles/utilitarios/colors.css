@@ -17,3 +17,23 @@
     rgba(242, 201, 76, 1) 100%
   );
 }
+
+.color-1 {
+  color: #ededed;
+}
+
+.color-2 {
+  color: #404040;
+}
+
+.color-3 {
+  color: #cccccc;
+}
+
+.color-4 {
+  color: #ffffff;
+}
+
+.color-detalhe {
+  color: #f2994a;
+}
