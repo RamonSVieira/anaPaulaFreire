@@ -1,0 +1,15 @@
+.banner-index {
+  position: relative;
+}
+
+.banner-index::before {
+  content: "";
+  background-color: var(--background-color1);
+  position: absolute;
+  border-radius: 8px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 15%;
+  z-index: -1;
+}
