@@ -1,0 +1,27 @@
+.radius {
+  border-radius: 4px;
+}
+
+.checks {
+  display: grid;
+  grid-template-columns: 1;
+  grid-auto-rows: 1fr;
+  gap: 16px;
+}
+
+.checks .check-item img {
+  width: 40px;
+}
+
+.check-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 420px;
+}
+
+@media (min-width: 768px) {
+  .checks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

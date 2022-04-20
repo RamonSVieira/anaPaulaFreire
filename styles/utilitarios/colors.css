@@ -41,3 +41,7 @@
 .background-color1 {
   background-color: var(--background-color1);
 }
+
+.background-color2 {
+  background-color: var(--background-color2);
+}

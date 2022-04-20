@@ -1,1 +1,64 @@
- 
+.blocos {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  grid-auto-rows: 1fr;
+  align-items: center;
+  position: relative;
+}
+
+.blocos .bloco-item {
+  padding: 56px 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.bloco-item::after {
+  height: 2px;
+  top: -2px;
+  left: 0;
+  right: 0;
+  background-color: rgba(14, 14, 14, 0.3);
+  position: absolute;
+}
+
+.blocos .bloco-item p {
+  margin: 0;
+  max-width: 364px;
+}
+
+@media (max-width: 991px) {
+  .bloco-item:not(:first-child)::after {
+    content: "";
+  }
+}
+
+@media (min-width: 992px) {
+  .blocos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blocos::after {
+    content: "";
+    width: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    bottom: 0;
+    background-color: rgba(14, 14, 14, 0.3);
+    position: absolute;
+  }
+
+  .bloco-item:not(:first-child):not(:nth-child(2))::after {
+    content: "";
+  }
+}
+
+@media (max-width: 576px) {
+  .blocos .bloco-item {
+    padding: 40px;
+  }
+}

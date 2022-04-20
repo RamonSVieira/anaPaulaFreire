@@ -1,5 +1,6 @@
 .font-1-xs {
   font: 800 3.5rem/1.5 "Poppins", sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .font-2-x {
@@ -32,4 +33,16 @@
 
 .font-citacao {
   font: 400 2.5rem/1.5 "Oswald", sans-serif;
+}
+
+@media (max-width: 992px) {
+  .font-1-xs {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .font-1-xs {
+    font-size: 2rem;
+  }
 }
