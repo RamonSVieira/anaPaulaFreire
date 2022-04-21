@@ -51,4 +51,14 @@
   .font-citacao {
     font-size: 2rem;
   }
+
+  .font-4-g {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .font-4-g {
+    font-size: 1rem;
+  }
 }

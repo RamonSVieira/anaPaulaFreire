@@ -1,0 +1,26 @@
+#footer .contato {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#footer .contato .contato-items {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#footer .contato .contato-items img {
+  height: 40px;
+}
+
+#footer .contato .contato-items span:hover {
+  color: #ededed;
+}
+
+@media (max-width: 420px) {
+  #footer .contato .contato-items img {
+    height: 30px;
+  }
+}
