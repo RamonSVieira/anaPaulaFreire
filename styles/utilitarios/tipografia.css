@@ -46,3 +46,9 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 576px) {
+  .font-citacao {
+    font-size: 2rem;
+  }
+}
