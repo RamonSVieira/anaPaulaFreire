@@ -10,6 +10,52 @@
   top: 0;
   bottom: 0;
   right: 0;
-  left: 15%;
+  left: 132px;
   z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .banner-index .photo {
+    min-width: 168px;
+  }
+
+  .banner-index::before {
+    left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-index::before {
+    left: 133px;
+  }
+}
+
+@media (min-width: 800px) {
+  .banner-index::before {
+    left: 133px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-index::before {
+    left: 143px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner-index::before {
+    left: 131px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .banner-index::before {
+    left: 149px;
+  }
+}
+
+@media (max-width: 800px) {
+  .banner-index .photo {
+    min-width: 168px;
+  }
 }
