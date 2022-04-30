@@ -2,11 +2,13 @@
   --background-color1: #2f2f30;
   --background-color2: #feffdf;
   --background-color3: #41403d;
+  --background-color4: #fcff9d;
 
   --font-color-1: #ededed;
   --font-color-2: #404040;
   --font-color-3: #cccccc;
   --font-color-4: #ffffff;
+  --font-color-5: #0e0e0e;
 
   --color-detalhe: #f2994a;
 
@@ -34,6 +36,10 @@
   color: var(--font-color-4);
 }
 
+.color-5 {
+  color: var(--font-color-5);
+}
+
 .color-detalhe {
   color: var(--color-detalhe);
 }
@@ -48,4 +54,8 @@
 
 .background-color3 {
   background-color: var(--background-color3);
+}
+
+.background-color4 {
+  background-color: var(--background-color4);
 }
