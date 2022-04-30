@@ -9,6 +9,8 @@
   --font-color-3: #cccccc;
   --font-color-4: #ffffff;
   --font-color-5: #0e0e0e;
+  --font-color-6: #595959;
+  --font-color-7: #717171;
 
   --color-detalhe: #f2994a;
 
@@ -38,6 +40,14 @@
 
 .color-5 {
   color: var(--font-color-5);
+}
+
+.color-6 {
+  color: var(--font-color-6);
+}
+
+.color-7 {
+  color: var(--font-color-7);
 }
 
 .color-detalhe {
