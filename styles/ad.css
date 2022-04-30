@@ -8,6 +8,10 @@
   width: 160px;
 }
 
+#contact-area a {
+  color: var(--font-color-7);
+}
+
 .group-contact {
   padding: 20px;
   display: flex;
